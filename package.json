@@ -17,5 +17,10 @@
     "rimraf": "^6.1.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "env-var": "^7.5.0",
+    "express": "^5.2.1"
   }
 }

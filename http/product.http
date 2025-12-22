@@ -1,0 +1,23 @@
+### All Products
+
+GET http://localhost:3000/api/products HTTP/1.1
+Content-Type: application/json
+
+
+### Get One Product
+
+GET http://localhost:3000/api/products/1 HTTP/1.1
+Content-Type: application/json
+
+
+### POST Create Product
+
+POST http://localhost:3000/api/products/ HTTP/1.1
+Accept: : application/json
+Content-Type: application/json
+Authorization: Bearer {{POST_LOGIN.response.body.token}}
+
+{
+  "name": "Hot Chocolate",
+  "category": "68fd3d544206c2177b1e1a01"
+}
