@@ -1,5 +1,10 @@
-### Upload File
+### TEST
 POST http://localhost:3000/api/github
+Accept: : application/json
+Content-Type: application/json
+
+### NGROK TEST
+POST https://karlene-meddlesome-uninformatively.ngrok-free.dev/api/github
 Accept: : application/json
 Content-Type: application/json
 
